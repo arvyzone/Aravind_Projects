@@ -2,7 +2,7 @@ import React from "react";
 import { cn } from "../../lib/utils";
 import {
   Heart,
-  CircleHelp,
+  HelpCircle,
   TrendingUp,
   Cloud,
   Route,
@@ -66,7 +66,7 @@ export function FeaturesSectionWithHoverEffects() {
       title: "Critical Curiosity",
       description:
         "Learning is driven by questions that matter, not just answers.",
-      icon: <CircleHelp className="w-8 h-8" />,
+      icon: <HelpCircle className="w-8 h-8" />,
     },
     {
       title: "Invest in Future Skills",
