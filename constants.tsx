@@ -30,7 +30,7 @@ export const NAV_LINKS: NavLink[] = [
 
 export const HERO_TEXT = {
   headline: "Where the AI Future Learns to Stay Human",
-  subheadline: "Empowering students aged 13+ to harness AI capabilities while preserving human creativity, critical thinking, and emotional intelligence"
+  subheadline: "Empowering students aged 13+ to harness AI capabilities while preserving human creativity, critical thinking, and emotional intelligence."
 };
 
 export const MISSION_TEXT = "“We exist to put humanity at the heart of the AI age, nurturing self-aware learners who harness technology while staying rooted in their deepest human essence.”";
