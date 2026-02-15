@@ -1,15 +1,15 @@
 import React from "react";
 import { cn } from "../../lib/utils";
 import {
-  IconAdjustmentsBolt,
-  IconCloud,
-  IconCurrencyDollar,
-  IconEaseInOut,
-  IconHeart,
-  IconHelp,
-  IconRouteAltLeft,
-  IconTerminal2,
-} from "@tabler/icons-react";
+  Heart,
+  CircleHelp,
+  TrendingUp,
+  Cloud,
+  Route,
+  Terminal,
+  ShieldCheck,
+  Activity,
+} from "lucide-react";
 
 interface FeatureProps {
   title: string;
@@ -60,46 +60,46 @@ export function FeaturesSectionWithHoverEffects() {
       title: "Human-Centered Mastery",
       description:
         "AI should serve imagination, empathy and connection, it must not replace them.",
-      icon: <IconHeart />,
+      icon: <Heart className="w-8 h-8" />,
     },
     {
       title: "Critical Curiosity",
       description:
         "Learning is driven by questions that matter, not just answers.",
-      icon: <IconHelp />,
+      icon: <CircleHelp className="w-8 h-8" />,
     },
     {
       title: "Invest in Future Skills",
       description:
         "The skills you build today—adaptability, ethics, creativity—are your future currency.",
-      icon: <IconCurrencyDollar />,
+      icon: <TrendingUp className="w-8 h-8" />,
     },
     {
       title: "Creating with AI",
       description: "Turn imagination into reality through images, videos, stories, and projects.",
-      icon: <IconCloud />,
+      icon: <Cloud className="w-8 h-8" />,
     },
     {
       title: "Extension, Not Substitution",
       description: "AI should enhance thinking and capability, not bypass the learning process.",
-      icon: <IconRouteAltLeft />,
+      icon: <Route className="w-8 h-8" />,
     },
     {
       title: "AI Foundations",
       description:
         "Understand what AI is, how it works, and where its limits lie.",
-      icon: <IconTerminal2 />,
+      icon: <Terminal className="w-8 h-8" />,
     },
     {
       title: "Ethical Imagination",
       description:
         "We build with care, while being aware of bias, ownership, privacy, and equity.",
-      icon: <IconAdjustmentsBolt />,
+      icon: <ShieldCheck className="w-8 h-8" />,
     },
     {
       title: "Reflective Agency",
       description: "Learners know themselves, how they think, learn, adapt, and lead.",
-      icon: <IconEaseInOut />,
+      icon: <Activity className="w-8 h-8" />,
     },
   ];
   return (
